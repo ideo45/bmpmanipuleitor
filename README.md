@@ -26,7 +26,7 @@ Como limitación conocida, la versión actual no maneja correctamente el padding
 
 ## Ejecución
 
-Antes de ejecutar el programa, compila el proyecto desde el entorno de desarrollo que prefieras. Al compilarlo se genera la carpeta de salida (normalmente `bin/Debug`) y dentro queda el ejecutable. Esa carpeta no está incluida en GitHub porque se crea al compilar.
+Primero, compila el proyecto desde el entorno de desarrollo que prefieras. Al compilarlo se generan las carpetas de salida del proyecto (por ejemplo, `bin/Debug`) y allí queda el ejecutable. Estas carpetas no se suben a GitHub porque se generan nuevamente al compilar y están excluidas mediante `.gitignore`.
 
 Abre una consola y accede a la carpeta de salida generada por la compilación (normalmente `bin/Debug`). Una vez allí, ejecuta el programa indicando la imagen BMP y las opciones. La imagen debe estar en esa carpeta o puedes indicar su ruta.
 
