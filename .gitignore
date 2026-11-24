@@ -1,0 +1,11 @@
+# Archivos de compilación
+/bin/
+/obj/
+*.exe
+*.o
+*.depend
+*.layout
+
+# Configuración local de editores
+.vscode/
+.idea/
