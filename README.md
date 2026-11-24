@@ -26,7 +26,9 @@ Como limitación conocida, la versión actual no maneja correctamente el padding
 
 ## Ejecución
 
-Abre una consola y accede a la carpeta `Debug` del proyecto. Una vez allí, ejecuta el programa indicando la imagen BMP y las opciones. La imagen debe estar en esa carpeta o puedes indicar su ruta.
+Antes de ejecutar el programa, compila el proyecto desde el entorno de desarrollo que prefieras. Al compilarlo se genera la carpeta de salida (normalmente `bin/Debug`) y dentro queda el ejecutable. Esa carpeta no está incluida en GitHub porque se crea al compilar.
+
+Abre una consola y accede a la carpeta de salida generada por la compilación (normalmente `bin/Debug`). Una vez allí, ejecuta el programa indicando la imagen BMP y las opciones. La imagen debe estar en esa carpeta o puedes indicar su ruta.
 
 ```sh
 ./bmpmanipuleitor unlam.bmp --negativo
